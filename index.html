@@ -11,7 +11,7 @@
             margin: 20px;
         }
         table {
-            width: 60%;
+            width: 80%;
             margin: 20px auto;
             border-collapse: collapse;
         }
@@ -30,29 +30,38 @@
     <h1>Leaderboard - Perplexity dei Modelli</h1>
     <table>
         <tr>
+            <th>Rank</th>
             <th>Modello</th>
-            <th>Perplexity (prima)</th>
-            <th>Perplexity (dopo)</th>
-            <th>Δ Perplexity (%)</th>
+            <th>Perplexity (before)</th>
+            <th>Perplexity (after)</th>
+            <th>Standard Deviation (before)</th>
+            <th>Standard Deviation (after)</th>
         </tr>
-        <tr>
-            <td>GPT-3.5</td>
-            <td>35.2</td>
-            <td>40.5</td>
-            <td style="color: red;">+15.1%</td>
-        </tr>
-        <tr>
-            <td>LLaMA 2</td>
-            <td>28.7</td>
-            <td>32.1</td>
-            <td style="color: red;">+11.8%</td>
-        </tr>
-        <tr>
-            <td>Mistral 7B</td>
-            <td>42.3</td>
-            <td>39.7</td>
-            <td style="color: green;">-6.1%</td>
-        </tr>
+        <tr><td>1</td><td>Phi-3.5-mini-instruct</td><td>1.9371</td><td></td><td>0.627393</td><td></td></tr>
+        <tr><td>2</td><td>phi-4</td><td>1.9819</td><td></td><td>0.451902</td><td></td></tr>
+        <tr><td>3</td><td>aya-expanse-32b</td><td>2.05862</td><td></td><td>0.665546</td><td></td></tr>
+        <tr><td>4</td><td>aya-expanse-8b</td><td>2.08372</td><td></td><td>0.533397</td><td></td></tr>
+        <tr><td>5</td><td>gemma-2-27b-it</td><td>2.08955</td><td></td><td>0.848125</td><td></td></tr>
+        <tr><td>6</td><td>Mistral-Nemo-Instruct-2407</td><td>2.09962</td><td></td><td>1.30973</td><td></td></tr>
+        <tr><td>7</td><td>gemma-2-9b-it</td><td>2.11142</td><td></td><td>0.978569</td><td></td></tr>
+        <tr><td>8</td><td>Phi-3-mini-128k-instruct</td><td>2.22877</td><td></td><td>0.596523</td><td></td></tr>
+        <tr><td>9</td><td>Mistral-Small-24B-Instruct-2501</td><td>2.45142</td><td></td><td>1.6041</td><td></td></tr>
+        <tr><td>10</td><td>Mistral-7B-Instruct-v0.3</td><td>2.58129</td><td></td><td>1.39239</td><td></td></tr>
+        <tr><td>11</td><td>Qwen2.5-72B-Instruct</td><td>2.7459</td><td></td><td>1.28083</td><td></td></tr>
+        <tr><td>12</td><td>Qwen2.5-7B-Instruct</td><td>2.76081</td><td></td><td>1.08743</td><td></td></tr>
+        <tr><td>13</td><td>Ministral-8B-Instruct-2410</td><td>2.96757</td><td></td><td>11.4572</td><td></td></tr>
+        <tr><td>14</td><td>Phi-3-medium-128k-instruct</td><td>3.04512</td><td></td><td>3.17415</td><td></td></tr>
+        <tr><td>15</td><td>Qwen2.5-14B-Instruct</td><td>3.14115</td><td></td><td>1.24885</td><td></td></tr>
+        <tr><td>16</td><td>Qwen2.5-32B-Instruct</td><td>3.24327</td><td></td><td>1.47432</td><td></td></tr>
+        <tr><td>17</td><td>Qwen2.5-0.5B-Instruct</td><td>3.24844</td><td></td><td>0.72023</td><td></td></tr>
+        <tr><td>18</td><td>Qwen2.5-1.5B-Instruct</td><td>3.41444</td><td></td><td>0.809744</td><td></td></tr>
+        <tr><td>19</td><td>Llama-3.2-3B-Instruct</td><td>3.52717</td><td></td><td>3.38547</td><td></td></tr>
+        <tr><td>20</td><td>Qwen2.5-3B-Instruct</td><td>3.60572</td><td></td><td>2.44009</td><td></td></tr>
+        <tr><td>21</td><td>Phi-3.5-MoE-instruct</td><td>4.50914</td><td></td><td>1.81368</td><td></td></tr>
+        <tr><td>22</td><td>Llama-3.2-1B-Instruct</td><td>5.65277</td><td></td><td>8.82978</td><td></td></tr>
+        <tr><td>23</td><td>Llama-3.3-70B-Instruct</td><td>9.03916</td><td></td><td>15.6846</td><td></td></tr>
+        <tr><td>24</td><td>Llama-3.1-70B-Instruct</td><td>9.86582</td><td></td><td>13.8066</td><td></td></tr>
+        <tr><td>25</td><td>Llama-3.1-8B-Instruct</td><td>18.2804</td><td></td><td>29.8258</td><td></td></tr>
     </table>
 </body>
 </html>
