@@ -26,9 +26,12 @@ These metrics will be recomputed after adversarial interventions (e.g., quantiza
 | Rank | Model                              | Average Perplexity ↓ | Standard Deviation     |
 |------|------------------------------------|----------------------:|------------------------:|
 | 1    | LLaMAntino-3-ANITA-8B-Inst-DPO-ITA |               2.77502 |               1.87228  |
-| 2    | DanteLLM-7B-Instruct-Italian-v0.1  |               3.16828 |               1.31657  |
+| 2    | DanteLLM-7B-Instruct-Italian-v0.1  |               3.16792 |               1.31612  |
+| 3    | modello-italia-9b-bf16             |               5.74107 |               8.5757   |
 | 3    | Minerva-7B-instruct-v1.0           |               7.27705 |               6.12963  |
-| 4    | extremITA-Camoscio-7b              |              17.76580 |              32.76550  |
-| 5    | Velvet-14B                         |       1.27221e+16     |       2.34234e+17       |
+| 4    | extremITA-Camoscio-7b              |               17.7658 |               32.7655  | 
+| 5    | Velvet-14B                         |               26.5908 |               55.9184  |
+
+
 
 
