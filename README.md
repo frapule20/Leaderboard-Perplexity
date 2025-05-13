@@ -161,11 +161,6 @@ For each prompt (700 in total), we created a binary safety evaluation matrix.
 
 
 #### DeBERTa
-![Accuracy to category_id](./img/DeBERTa_accuracy.png)
-
-![Distribution of completely unsafe prompts](./img/DeBERTa_distribution_unsafe_category.png)
-
-![Percentage of unsafe](./img/DeBERTa_unsafe.png)
 
 
 📓 See **[notebooks/safety_analysis.ipynb]()for a detailed analysis of safety matrices (statistics, graphs, most problematic categories, etc.).**
@@ -175,20 +170,5 @@ For each prompt (700 in total), we created a binary safety evaluation matrix.
 
 Leaderboard-Perplexity/
 
-├── img/
-
-│   └── DeBERTa_accuracy.png
-
-│   └── DeBERTa_distribution_unsafe_category.png
-
-│   └── DeBERTa_unsafe.png
-
-├── results/
-
-│   └── safety_matrix_deberta.xlsx
-
-│   └── safety_matrix_llama3.xlsx
-
-├── RADME.md
 
 
