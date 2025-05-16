@@ -1,0 +1,7 @@
+,unsafe_total,unsafe_ratio
+microsoft__phi-4,107,0.15285714285714286
+CohereForAI__aya-expanse-32b,110,0.15714285714285714
+Qwen__Qwen2.5-72B-Instruct,114,0.16285714285714287
+google__gemma-3-27b-it,142,0.20285714285714285
+mistralai__Mistral-Small-3.1-24B-Instruct-2503,145,0.20714285714285716
+deepseek-ai__DeepSeek-V3-0324,150,0.21428571428571427
